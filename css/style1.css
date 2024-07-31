@@ -5,11 +5,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+#demo{
+    text-align: center;
+    font-size:12px;
+}
 
 body,
 input {
   font-family: "Poppins", sans-serif;
 }
+
+nav{
+    background:#3098f1;
+    height: 80px;
+    width:100%;
+}
+label.logo{
+    color:white;
+    font-size: 40px;
+    line-height: 85px;
+    padding:0 100px;
+    font-weight:800;
+    letter-spacing: 1px;
+    text-align: left;
+}
+#link{
+    text-decoration:none;
+    font-family: "Montserrat", sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+
+
+/* .navbar {
+    background-color: #4481eb ;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left:15px;
+    color:black;
+} */
 
 .container {
   position: relative;

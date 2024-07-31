@@ -1,9 +1,9 @@
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");
-// const login-btn=documnet.querySelector("#login-btn");
+// const login-btn =documnet.querySelector("#login-btn");
 const container = document.querySelector(".container");
-// var user=user1234
-// var pass=usedemoclass1
+var user="user1234";
+var pass="usedemo";
 sign_up_btn.addEventListener('click', () =>{
     container.classList.add("sign-up-mode");
 });
@@ -13,5 +13,22 @@ sign_in_btn.addEventListener('click', () =>{
 });
 
 // login-btn.addEventListener('click', ()=>{
-  // if()
+//   if()
 // })
+document.getElementById("login-btn").addEventListener("click", myFunction);
+
+function myFunction() {
+  let inputUser = document.getElementById("myuser");
+  let inputUserValue=inputUser.value;
+
+  let inputPassword = document.getElementById("mypassword");
+  let inputPasswordValue=inputPassword.value;
+
+  if (inputUserValue==user && inputPasswordValue==pass){
+      alert("Input value"+inputUserValue);
+      window.location.href = "seekhlo/index.html";
+  }
+  else{
+    alert("Enter valid user id and password");
+  }
+}
