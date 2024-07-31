@@ -119,9 +119,9 @@ body {
   font-style: normal;
 }
 
-.section-heading h6 {
-  color: #7a6ad8;
-  font-size: 14px;
+.section-heading h3 {
+  color: #3cbeee;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -129,7 +129,7 @@ body {
 .main-button a {
   display: inline-block;
   background-color: #fff;
-  color: #7a6ad8;
+  color: #3cbeee;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
@@ -198,7 +198,7 @@ Events Style
 .events .item ul li span.category {
   font-size: 14px;
   text-transform: uppercase;
-  color: #7a6ad8;
+  color: #3cbeee;
   background-color: #fff;
   padding: 8px 20px;
   border-radius: 25px;
@@ -221,7 +221,7 @@ Events Style
 
 .events .item ul li h6 {
   font-size: 16px;
-  color: #7a6ad8;
+  color: #3cbeee;
   font-weight: 600;
 }
 
@@ -229,7 +229,7 @@ Events Style
   position: absolute;
   right: 0;
   top: 22px;
-  background-color: #7a6ad8;
+  background-color: #3cbeee;
   width: 60px;
   height: 120px;
   display: inline-block;
