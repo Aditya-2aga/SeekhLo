@@ -12,9 +12,6 @@ sign_in_btn.addEventListener('click', () =>{
     container.classList.remove("sign-up-mode");
 });
 
-// login-btn.addEventListener('click', ()=>{
-//   if()
-// })
 document.getElementById("login-btn").addEventListener("click", myFunction);
 
 function myFunction() {
