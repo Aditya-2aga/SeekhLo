@@ -16,9 +16,35 @@ input {
 }
 
 nav{
-    background:#3098f1;
+   
+    background-image: linear-gradient(
+  90deg,
+  hsl(201deg 94% 53%) 0%,
+  hsl(203deg 95% 55%) 5%,
+  hsl(205deg 96% 57%) 10%,
+  hsl(207deg 97% 60%) 16%,
+  hsl(209deg 98% 62%) 21%,
+  hsl(212deg 98% 63%) 26%,
+  hsl(215deg 98% 65%) 31%,
+  hsl(218deg 98% 67%) 36%,
+  hsl(218deg 98% 67%) 41%,
+  hsl(218deg 98% 67%) 46%,
+  hsl(218deg 98% 67%) 50%,
+  hsl(218deg 98% 67%) 55%,
+  hsl(218deg 98% 67%) 60%,
+  hsl(218deg 98% 67%) 64%,
+  hsl(218deg 98% 67%) 69%,
+  hsl(215deg 98% 65%) 74%,
+  hsl(212deg 98% 63%) 78%,
+  hsl(209deg 98% 62%) 83%,
+  hsl(207deg 97% 60%) 87%,
+  hsl(205deg 96% 57%) 91%,
+  hsl(203deg 95% 55%) 96%,
+  hsl(201deg 94% 53%) 100%
+);
     height: 80px;
     width:100%;
+    
 }
 label.logo{
     color:white;
