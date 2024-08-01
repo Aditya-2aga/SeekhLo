@@ -288,7 +288,7 @@
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/carousel-11.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/ref3.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -407,7 +407,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../img/carousel-1.jpg);
+    background-image: url(../img/ref1.webp) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
