@@ -240,7 +240,7 @@
     align-items: center;
     justify-content: center;
     animation-name: carousel-next-btn;
-    animation-duration: 4s;
+    animation-duration: 10s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
     transition: 1s;
@@ -343,7 +343,7 @@
 .service {
     position: relative;
     overflow: hidden;
-    background-image: url(../img/carousel-1.jpg);
+    background-image: url(../img/ref4.jfif) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -733,7 +733,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../img/carousel-1.jpg);
+    background-image: url(../img/ref1.webp) !important;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

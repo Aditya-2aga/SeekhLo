@@ -155,7 +155,7 @@ Events Style
 --------------------------------------------- 
 */
 .enetcard{
-  margin-top: 15vh;
+  margin-top: 17vh;
 }
 .events .section-heading {
   margin-bottom: 100px;
@@ -239,4 +239,23 @@ Events Style
   z-index: 1;
   color: #fff;
   border-radius: 60px 0px 0px 60px;
+}
+
+.bg-breadcrumb {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/HkZi47WeT9CUf78N9yqA0Q.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0 60px 0;
+  transition: 0.5s;
+}
+
+.feature-content-inner h4{
+  font-size: 15 px !important;
+}
+
+.feature-content-inner p{
+  font-size: 10 px !important;
 }
