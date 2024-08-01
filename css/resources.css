@@ -358,6 +358,14 @@
 .gallery .gallery-item:hover .search-icon {
     opacity: 1;
 }
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
 /*** Resources End ***/
 
 /*** Footer Start ***/
