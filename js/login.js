@@ -22,8 +22,8 @@ function myFunction() {
   let inputPasswordValue=inputPassword.value;
 
   if (inputUserValue==user && inputPasswordValue==pass){
-      alert("Input value"+inputUserValue);
-      window.location.href = "seekhlo/index.html";
+      // alert("Correct password");
+      window.location.href = "http://127.0.0.1:5501/index.html";
   }
   else{
     alert("Enter valid user id and password");
