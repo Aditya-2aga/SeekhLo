@@ -16,7 +16,7 @@ sign_in_btn.addEventListener('click', () => {
 document.getElementById("login-btn").addEventListener("click", myFunction);
 
 function myFunction(event) {
-  event.preventDefault(); // Prevent form from submitting
+  event.preventDefault(); 
 
   let inputUser = document.getElementById("myuser");
   let inputUserValue = inputUser.value;
